@@ -25,6 +25,8 @@ For more information on `.meta` files, support sites, and instructions for how t
 
 You now know about `.meta` files and understand that every file _has to come from somewhere_. This implies that you must create `.meta` files for MO2 and files in your game folder. You need to be using the zipped version of the [MO2 GitHub Releases](https://github.com/ModOrganizer2/modorganizer/releases/) instead of the ones you can find on the Nexus and instead of the installer to avoid issues.
 
+Note: Wabbajack reads the `ModOrganizer.ini` file. Normally found in Mod Organizer's Instance folder which is in the UI list of folders, will need to be moved to MO2's %BASE_DIR%. i.e. Instead expected to be / root level with the mods, downloads, profile directories - so copy the file there if it isn't there already.
+
 ## Utility Outputs
 
 Outputs from utility's from VRAMR or ParallaxGen are **strictly** forbidden from being uploaded on both Nexus and the Wabbajack CDN. If you want to include such outputs:-
